@@ -64,7 +64,7 @@ This repo is set up as a **single internal Python package** (`trading_research`)
 From repo root:
 
 ```bash
-uv venv
+uv venv --prompt stat-arb
 source .venv/bin/activate
 uv pip install -e ".[dev]"
 ```

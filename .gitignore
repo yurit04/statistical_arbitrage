@@ -212,3 +212,6 @@ __marimo__/
 
 # Windows Zone Identifier files
 *:Zone.Identifier
+
+# macOS
+.DS_Store

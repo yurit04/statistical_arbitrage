@@ -19,6 +19,8 @@ dependencies = [
   "pyarrow",
   "yfinance",
   "tqdm",
+  "torch",
+  "torchvision",
   "pydantic",
   "pyyaml",
 ]

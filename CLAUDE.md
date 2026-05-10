@@ -88,6 +88,7 @@ Current projects:
 - **masters_meets_prado_portfolio** — portfolio construction using Prado methods
 - **ml_technical_analysis_sp500** — ML on technical indicators for S&P 500 (replication of Chin & Lin 2025)
 - **momentum_transformer** — transformer-based momentum strategy (has a reference paper PDF)
+- **learning_to_rank** — learning-to-rank methods applied to asset selection
 
 ### Key conventions
 - Notebooks import from `trading_research` using editable install — no `sys.path` hacks needed.

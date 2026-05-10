@@ -31,18 +31,12 @@ statistical_arbitrage/
 
   projects/                        # one folder per research project
     attention_factors_stat_arb/
-      README.md
-      notebooks/
-      scripts/
-      configs/
-      outputs/                     # gitignored
     ml_pairs_trading/
-      README.md
-      notebooks/
-      scripts/
-      configs/
-      outputs/                     # gitignored
     masters_meets_prado_portfolio/
+    ml_technical_analysis_sp500/
+    momentum_transformer/
+    learning_to_rank/
+    ...                            # each project follows the layout below
       README.md
       notebooks/
       scripts/

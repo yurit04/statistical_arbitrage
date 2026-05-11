@@ -49,7 +49,7 @@ ruff format src/ tests/
 mypy src/
 ```
 
-No Makefile exists; run commands directly.
+No Makefile exists; run commands directly. The `tests/` directory is currently unpopulated — tests are intended for the shared `trading_research` package only, not for project notebooks.
 
 ## Architecture
 
@@ -90,9 +90,12 @@ Current projects:
 - **momentum_transformer** — transformer-based momentum strategy (has a reference paper PDF)
 - **learning_to_rank** — learning-to-rank methods applied to asset selection
 - **enhancing_ts_mom_using_dnn** — enhancing time-series momentum strategies using deep neural networks
+- **systematic_etf_factor_strategies** — systematic factor strategies applied to ETFs
 
 ### Key conventions
 - Notebooks import from `trading_research` using editable install — no `sys.path` hacks needed.
 - `projects/**/outputs/` and `data/` are gitignored; never commit model artifacts or downloaded data.
 - Reference papers (PDFs) live in the project folder alongside the notebook that replicates them.
 - Data is fetched at runtime from Yahoo Finance (`yfinance`) or Ken French's data library; there is no checked-in dataset.
+- `uv.lock` is committed to git (the gitignore entry for it is intentionally commented out).
+- Notebooks are versioned by filename suffix (e.g. `v1`, `v1.1`, `v2`) rather than overwritten in place — create a new versioned copy when iterating significantly on a notebook.

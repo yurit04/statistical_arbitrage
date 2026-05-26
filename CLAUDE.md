@@ -91,6 +91,7 @@ Current projects:
 - **learning_to_rank** — learning-to-rank methods applied to asset selection
 - **enhancing_ts_mom_using_dnn** — enhancing time-series momentum strategies using deep neural networks
 - **systematic_etf_factor_strategies** — systematic factor strategies applied to ETFs
+- **large_and_deep_factor_models** — large and deep factor models
 
 ### Key conventions
 - Notebooks import from `trading_research` using editable install — no `sys.path` hacks needed.

@@ -21,6 +21,7 @@ dependencies = [
   "seaborn",
   "pyarrow",
   "yfinance",
+  "hmmlearn",
   "tqdm",
   "torch",
   "torchvision",

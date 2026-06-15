@@ -93,6 +93,7 @@ Current projects:
 - **systematic_etf_factor_strategies** — systematic factor strategies applied to ETFs
 - **large_and_deep_factor_models** — large and deep factor models
 - **regime_based_port_alloc** — regime-based portfolio allocation
+- **asset_specific_regime_forecasts_impl** — asset-specific regime forecasting implementation
 
 ### Key conventions
 - Notebooks import from `trading_research` using editable install — no `sys.path` hacks needed.

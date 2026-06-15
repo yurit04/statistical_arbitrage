@@ -11,6 +11,7 @@ requires-python = ">=3.11"
 dependencies = [
   "numpy",
   "pandas",
+  "pandas-datareader",
   "scipy",
   "scikit-learn",
   "xgboost",
@@ -23,6 +24,7 @@ dependencies = [
   "yfinance",
   "lxml",
   "hmmlearn",
+  "cvxpy",
   "tqdm",
   "torch",
   "torchvision",

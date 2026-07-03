@@ -1,0 +1,3 @@
+# trend_following_trading_under_regime_switching
+
+Project workspace.
